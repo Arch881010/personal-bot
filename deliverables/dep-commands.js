@@ -1,7 +1,7 @@
 const testing = true;
 
 const { REST, Routes } = require('discord.js');
-const { clientId, guildId, token } = require('./bot/config.json');
+const { clientId, guildId, token } = require('./deliverables/bot/config.json');
 const fs = require('node:fs');
 
 const commands = [];
